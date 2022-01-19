@@ -52,5 +52,5 @@ const miner = (target, maxDistance) => {
   return { count, result }
 }
 
-console.log(miner(1992, 50))
+console.log(miner(1992, 200))
 console.log(miner(999_000, 1))
